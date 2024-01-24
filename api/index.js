@@ -17,7 +17,7 @@ const secret = "asdfe45we45w345wegw345werjktjwertkj";
 app.use(
   cors({
     credentials: true,
-    origin: ["https://mern-blog-1whq.vercel.app"],
+    origin: ["http://localhost:5173"],
     methods: ["GET", "POST", "PUT"],
   })
 );
